@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interval Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="timeset">
+        <div id="session">
+          <div class="display">25</div>
+          <div class="increment">
+            <div class="up">▲</div>
+            <div class="down">▼</div>
+          </div>
+        </div>
+        <div id="break">
+          <div class="display">05</div>
+          <div class="increment">
+            <div class="up">▲</div>
+            <div class="down">▼</div>
+          </div>
+        </div>
+      </div>
+      <div id="timer">
+        <div id="display">▶</div>
+      </div>
+      <div>
+        <div id="reset">↻</div>
+      </div>
+    </div>
+
+    <audio id="break-alert" src="sounds/ride.wav"></audio>
+    <audio id="session-alert" src="sounds/tink.wav"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
